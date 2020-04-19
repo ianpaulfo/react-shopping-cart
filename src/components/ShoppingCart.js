@@ -12,7 +12,7 @@ const ShoppingCart = props => {
 
 	return (
 		<div className="shopping-cart">
-			{props.cart.map(item => (
+     		 {cart.map(item => (
 				<Item key={item.id} {...item} />
 			))}
 
