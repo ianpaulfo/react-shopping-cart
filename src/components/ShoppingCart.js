@@ -5,7 +5,7 @@ import Item from './ShoppingCartItem';
 import CartContext from '../contexts/CartContext';
 
 const ShoppingCart = () => {
-	const { cart, removeItem, clearCart } = useContext(CartContext);
+	const { cart, removeItem } = useContext(CartContext);
 
 	const getCartTotal = () => {
 		return cart
